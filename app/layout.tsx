@@ -13,6 +13,9 @@ const font = Urbanist({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Beki onlineshop',
   description: 'Greate awesome online shop by own',
+  icons: {
+    icon: ["/favicon.ico?v=4"] 
+  }
 }
 
 export default function RootLayout({
